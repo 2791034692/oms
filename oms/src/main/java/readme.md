@@ -1,0 +1,1 @@
+这个是oms开源的插件化框架，插件本身不支持androidx，需要宿主支持，之后由宿主通过HookFramework创建插件运行环境，插件本身就是一个apk。除了继承了HookAbility的Activity无法独立运行外其他与正常的App无异。HookApplication跟Application不冲突，在meta-data注册即可
