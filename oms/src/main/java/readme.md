@@ -1,1 +1,3 @@
-这个是oms开源的插件化框架，插件本身不支持androidx，需要宿主支持，之后由宿主通过HookFramework创建插件运行环境，插件本身就是一个apk。除了继承了HookAbility的Activity无法独立运行外其他与正常的App无异。HookApplication跟Application不冲突，在meta-data注册即可
+oms是新一代安卓开发工具库，集成了多项常用操作，并根据content，io，hook等进行区分。（值得注意的是：oms需要依托于androidx，当前已经完美适配安卓11）
+
+oms.hook : 这个是oms开源的插件化框架，插件本身不支持androidx，需要宿主支持，之后由宿主通过HookFramework创建插件运行环境，插件本身就是一个apk。除了继承了HookAbility的Activity无法独立运行外其他与正常的App无异。HookApplication跟Application不冲突，在meta-data注册即可
